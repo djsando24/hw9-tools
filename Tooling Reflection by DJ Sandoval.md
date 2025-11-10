@@ -1,0 +1,3 @@
+Tooling Reflection - DJ Sandoval
+
+I used flake8 to flag issues like unused code and spacing that could hide real mistakes. Black handled formatting so the layout of the code is consistent without having to fix it by hand. I set up a pre-commit hook to run both tools before each commit, which stops messy code from being added to the repo. I also used pip-audit to scan the project’s dependencies for known security risks. These tools helped me build cleaner code and avoid problems before they grow. This is the same type of workflow that many development teams use to keep code easy to read and safe to work with.
