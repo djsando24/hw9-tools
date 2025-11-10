@@ -1,10 +1,13 @@
-import math, sys
+def add(a: int, b: int) -> int:
+    return a + b
 
-def add(a,b):
-    return a+ b
 
-def unused(x):
+def use_value(x: int) -> int:
     y = 1
-    # missing return on purpose
+    return x + y
 
-print(add(1,2))
+
+if __name__ == "__main__":
+    print(add(1, 2))
+
+# asdfasdfasdf
